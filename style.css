@@ -223,9 +223,21 @@ footer {
     position: relative;
 }
 .imageback{
+    padding-top: 5px;
+    align-items: center;
     position: 100%; 
-    height: auto;
+    height: 600px;
+    overflow: hidden;
+    display: inline-block;
 }
+.hover-image-scale img {
+    transition: 1s; 
+    display: block; 
+    
+}
+.hover-image-scale img:hover {
+    transform: scale(1.1); 
+  }
 .header-text1 {
     position: absolute;
     bottom: 0;
