@@ -23,7 +23,7 @@
   
   .button:hover {
     transform: scale(1.1);
-    background: #b7a51f;
+    background: #a31c1c;
   }
   
   .selectButton {
@@ -57,11 +57,7 @@ header {
     justify-content: space-between;
 }
 
-.logo-image {
-    width: 201px;
-    height: 49px;
-    padding-right: 20px;
-}
+
 
 body {
     background-color: black;
@@ -114,19 +110,26 @@ h2 {
   .text-container h3 {
     font-size: 24px;
     color: #ffffff;
+    text-align: center;
    
 }
 .header-content {
     background-image: url('./img/фон1.jpg?raw=true');
     background-size: cover;
     background-position: center;
-    height: 500px; /* Задаем высоту блока */
+    height: 500px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #ffffff;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: auto;
 }
 .wowsocial {
     height: 60px;
@@ -153,6 +156,56 @@ h2 {
     height: 1px;
     margin-right: 20px;
 }
+
+.footer-logo {
+    height: 120px;
+    background: rgb(22, 10, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.logo-image {
+    width: 100px;
+    height: 49px;
+    padding-right: 20px;
+}
+
+
+
+.footer-columns {
+    display: flex;
+}
+
+.footer-column {
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    padding-right: 30px;
+}
+
+.column-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-copyright {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background: rgb(22, 10, 5);
+    padding-bottom: 15px;
+}
+
 @media only screen and (max-width: 700px) {
 
     .logo,
