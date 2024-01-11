@@ -1,0 +1,105 @@
+.button-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background: #000000;
+    transition: transform 0.3s;
+    margin-right: 50px;
+    transition: background 1s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: #b7a51f;
+}
+
+.selectButton {
+    background: rgba(0, 0, 0);
+}
+
+.button .text {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    word-wrap: break-word;
+}
+
+.logo {
+    width: 190px;
+    height: 59px;
+    margin: 10px;
+}
+
+.header-image {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-image {
+    width: 201px;
+    height: 49px;
+    padding-right: 20px;
+}
+
+body {
+    background-color: black;
+    
+    margin: 0;
+}
+@media only screen and (max-width: 700px) {
+
+    .logo,
+    .logo-image {
+        width: 0;
+        height: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .button {
+        margin: 7px;
+    }
+
+    .button .text {
+        font-size: 24px;
+        word-wrap: break-word;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .row {
+        display: contents;
+    }
+
+    .image-group .text {
+        width: 100%;
+        height: 430px;
+    }
+
+
+    .button {
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+}
