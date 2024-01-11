@@ -23,8 +23,9 @@
   
   .button:hover {
     transform: scale(1.1);
-    background: #a31c1c;
+
   }
+
   
   .selectButton {
     background: rgba(0, 0, 0);
@@ -60,7 +61,7 @@ header {
 
 
 body {
-    background-color: black;
+    background-color: rgb(20, 12, 9);
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
@@ -111,8 +112,11 @@ h2 {
     font-size: 24px;
     color: #ffffff;
     text-align: center;
-   
-}
+  }
+   .likebutton:hover{
+    transform: scale(1.1);
+   }
+
 .header-content {
     background-image: url('./img/фон1.jpg?raw=true');
     background-size: cover;
@@ -205,7 +209,46 @@ footer {
     background: rgb(22, 10, 5);
     padding-bottom: 15px;
 }
-
+.header-content1 {
+    background-image: url('./img/magazfon.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1000px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+.imageback{
+    position: 100%; 
+    height: auto;
+}
+.header-text1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: -100px
+  }
+  
+  .header-text1 h2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .texti {
+    text-align: center;
+  }
+.imgintext
+{
+    height: 300px; 
+    justify-content: center;
+    align-items: center;
+}
 @media only screen and (max-width: 700px) {
 
     .logo,
